@@ -1,0 +1,36 @@
+@media(max-width: 620px) {
+    body {
+        max-width: 375px;
+        max-height: 100vh;
+    }
+
+    .product-card {
+        min-width: 340px;
+        min-height: 600px;
+        margin: 10%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .product-card .image-container {
+        max-width: 100%;
+        background-image: url("/assets/images/image-product-mobile.jpg");
+        background-size: cover;
+        height: 100%;
+        max-height: 40%;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .description-container {
+        max-height: 100%;
+        max-width: 100%;
+        height: 65%;
+    }
+
+    .card-content {
+        margin: 24px;
+        display: flex;
+        justify-content: space-between;
+    }
+}

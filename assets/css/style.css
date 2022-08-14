@@ -2,56 +2,52 @@
 
 body {
     max-width: 1440px;
+    max-height: 100vh;
     background-color: hsl(30, 38%, 92%);
     display: flex;
     justify-content: center;
-    
 }
 
 .product-card {
     background-color: hsl(0, 0%, 100%);
     margin: 5rem 0 5rem 0;
-    max-width: 35rem;
+    width: 560px;
+    height: 400px;
     display: flex;
     border-radius: 10px;
-
+    box-shadow: 1px 1px 20px hsla(228, 12%, 48%, 0.200);
 }
 
-.image-container {
-    max-width: 50%;
-}
-
-.image-container img {
+.product-card .image-container {
+    background-image: url("/assets/images/image-product-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
-    height: 100%;
     border-radius: 10px 0 0 10px;
 }
 
 .description-container {
     max-width: 50%;
     display: flex;
-    
 }
 
 .card-content {
-    padding: 30px;
-    gap: 20px;
+    margin: 28px;
     font-family: 'Montserrat', sans-serif;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    color: hsl(212, 21%, 14%);
-
+    justify-content: space-between;
+    color: hsl(228, 12%, 48%);
 }
 
 .card-content h2 {
-    color: hsl(212, 21%, 14%);
     font-weight: 500;
     font-size: 12px;
     letter-spacing: 4px;
 }
 
 .card-content .product-name {
+    color: hsl(212, 21%, 14%);
     font-family: 'Fraunces', serif;
     font-weight: 700;
     font-size: 30px;
@@ -59,7 +55,7 @@ body {
 
 .card-content .product-description {
     font-size: 14px;
-    
+    line-height: 1.5em;
 }
 
 .prices {
@@ -83,5 +79,18 @@ body {
 .cart-btn {
     display: flex;
     align-items: center;
+    justify-content: center;
+    background-color: hsl(158, 36%, 37%);
+    font-size: 14px;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
     gap: 10px;
+    height: 45px;
+    border-radius: 8px;
+    border: 0;
+    cursor: pointer;
+}
+
+.cart-btn:hover {
+    background-color: hsl(156, 42%, 18%);
 }
