@@ -19,7 +19,7 @@ body {
 }
 
 .product-card .image-container {
-    background-image: url("C:/workspace/frontend-mentor/preview-card/assets/images/image-product-desktop.jpg");
+    background-image: url("../images/image-product-desktop.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
