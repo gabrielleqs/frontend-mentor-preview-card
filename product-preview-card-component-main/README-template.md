@@ -11,9 +11,6 @@ This is a solution to the [Product preview card component challenge on Frontend 
   - [Built with](#built-with)
 - [Author](#author)
 
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -29,8 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub Pages](https://gabrielleqs.github.io/frontend-mentor-preview-card/)
 
 ### Built with
 
@@ -40,5 +36,5 @@ Users should be able to:
 
 ## Author
 
-- Github - [Gabrielle Queiroz](https://github.com/gabrielleqs)
+- GitHub - [Gabrielle Queiroz](https://github.com/gabrielleqs)
 - Frontend Mentor - [@gabrielleqs](https://www.frontendmentor.io/profile/gabrielleqs)
